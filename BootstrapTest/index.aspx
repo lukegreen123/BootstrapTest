@@ -17,8 +17,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="navbar-nav">
-            <asp:HyperLink runat="server" CssClass="nav-item nav-link active">Home</asp:HyperLink>
-            <asp:HyperLink runat="server" CssClass="nav-item nav-link" NavigateUrl="about.aspx">About</asp:HyperLink>
+            <asp:HyperLink runat="server" CssClass="nav-item nav-link active" NavigateUrl="~/index.aspx">Home</asp:HyperLink>
+            <asp:HyperLink runat="server" CssClass="nav-item nav-link" NavigateUrl="~/about.aspx">About</asp:HyperLink>
         </div>
     </nav>
 

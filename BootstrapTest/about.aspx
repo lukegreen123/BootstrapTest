@@ -14,10 +14,26 @@
     <title>About page</title>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="navbar-nav">
+            <asp:HyperLink runat="server" CssClass="nav-item nav-link" NavigateUrl="~/index.aspx">Home</asp:HyperLink>
+            <asp:HyperLink runat="server" CssClass="nav-item nav-link active" NavigateUrl="~/about.aspx">About</asp:HyperLink>
         </div>
-    </form>
+    </nav>
+
+    <<div class="container">
+  <div class="row">
+    <div class="col>
+    </div>
+    <div class="col-6">
+      <h1>
+          About
+      </h1>
+    </div>
+    <div class="col">
+    </div>
+  </div>
 
 
 
