@@ -24,6 +24,15 @@
 
 
     <form id="form1" runat="server">
+
+        <div class="container">
+            <div class="col">
+            </div>
+            <div class="col-6">
+                <h1>Home</h1>
+            </div>
+        </div>
+
         <div class="container">
             <div class="col">
 
