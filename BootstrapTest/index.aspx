@@ -28,6 +28,8 @@
             <input type="text"  id="inputText" runat="server" />
             <asp:Button CssClass="btn btn-success" ID="btnOne" OnClick="btnOne_Click" runat="server" Text="Click" />
         </div>
+
+        <p runat="server" id="outArea"></p>
     </form>
 
 

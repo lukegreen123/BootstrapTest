@@ -18,7 +18,7 @@ namespace BootstrapTest
         {
             string input = inputText.Value;
             input = input.ToUpper();
-            
+            outArea.InnerHtml = input;
         }
     }
 }
