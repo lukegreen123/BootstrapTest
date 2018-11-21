@@ -38,7 +38,7 @@
 
 
     <!-- Scripts -->
-    <script src="Scripts/jquery-3.0.0/js"></script>
+    <script src="Scripts/jquery-3.0.0.js"></script>
     <script src="Scripts/popper.js"></script>
     <script src="Scripts/bootstrap.js"></script>
 
