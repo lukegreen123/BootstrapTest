@@ -15,24 +15,23 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
         <div class="navbar-nav">
-            <asp:HyperLink runat="server" CssClass="nav-item nav-link" NavigateUrl="~/index.aspx">Home</asp:HyperLink>
+            <asp:HyperLink runat="server" CssClass="nav-item nav-link text-white" NavigateUrl="~/index.aspx">Home</asp:HyperLink>
             <asp:HyperLink runat="server" CssClass="nav-item nav-link active" NavigateUrl="~/about.aspx">About</asp:HyperLink>
         </div>
     </nav>
 
-    <<div class="container">
-  <div class="row">
-    <div class="col>
-    </div>
-    <div class="col-6">
-      <h1>
-          About
-      </h1>
-    </div>
-    <div class="col">
-    </div>
+    <div class="container">
+        <div class="col">
+        </div>
+        <div class="col-6">
+          <h1>
+              About
+          </h1>
+        </div>
+        <div class="col">
+        </div>
   </div>
 
 

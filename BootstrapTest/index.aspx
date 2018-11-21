@@ -15,18 +15,23 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
         <div class="navbar-nav">
             <asp:HyperLink runat="server" CssClass="nav-item nav-link active" NavigateUrl="~/index.aspx">Home</asp:HyperLink>
-            <asp:HyperLink runat="server" CssClass="nav-item nav-link" NavigateUrl="~/about.aspx">About</asp:HyperLink>
+            <asp:HyperLink runat="server" CssClass="nav-item nav-link text-white" NavigateUrl="~/about.aspx">About</asp:HyperLink>
         </div>
     </nav>
 
 
     <form id="form1" runat="server">
-        <div>
-            <input type="text"  id="inputText" runat="server" />
-            <asp:Button CssClass="btn btn-success" ID="btnOne" OnClick="btnOne_Click" runat="server" Text="Click" />
+        <div class="container">
+            <div class="col">
+
+            </div>
+            <div class ="col-6">
+                <input type="text"  id="inputText" runat="server" />
+                <asp:Button CssClass="btn btn-success" ID="btnOne" OnClick="btnOne_Click" runat="server" Text="Click" />
+            </div>
         </div>
 
         <p runat="server" id="outArea"></p>
